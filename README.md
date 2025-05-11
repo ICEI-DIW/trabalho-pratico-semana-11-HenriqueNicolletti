@@ -4,14 +4,14 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:  Henrique Petronio Nicolletti
+- Matricula: 888577
+- Proposta de projeto escolhida: Guia de Lugares Turisticos
+- Breve descrição sobre seu projeto: O Guia de Lugares Turísticos é um site informativo que apresenta diversos destinos de viagem para quem deseja explorar o Brasil e o mundo.
 
 **Print do teste da API com visualização do JSON**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print da API](assets/img/PrintAPI.jpg)
 
 **Print da aba NETWORK com requisições Fetch/XHR**
 

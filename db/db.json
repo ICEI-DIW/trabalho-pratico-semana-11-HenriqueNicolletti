@@ -1,18 +1,50 @@
 {
-  "usuarios": [
-    {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
-    },
-    {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-    }
-  ]
+    "lugares": [
+        {
+            "id": 1,
+            "nome": "Fernando de Noronha",
+            "descricao": "Arquipélago com praias paradisíacas e rica vida marinha.",
+            "conteudo": "Fernando de Noronha é um dos destinos mais bonitos do Brasil, conhecido pela preservação ambiental e mergulho.",
+            "pais": "Brasil",
+            "categoria": "Praia",
+            "autor": "Agência Turismo BR",
+            "destaque": true,
+            "data": "2025-04-28",
+            "imagem_principal": "assets/img/noronha.jpg",
+            "imagens_complementares": [
+                { "id": 1, "src": "assets/img/noronha1.jpg", "descricao": "Baía do Sancho" },
+                { "id": 2, "src": "assets/img/noronha2.jpg", "descricao": "Praia do Leão" }
+            ]
+        },
+        {
+            "id": 2,
+            "nome": "Machu Picchu",
+            "descricao": "Antiga cidade Inca localizada nos Andes peruanos.",
+            "conteudo": "Machu Picchu é um Patrimônio Mundial da UNESCO, visitado por milhares de turistas anualmente.",
+            "pais": "Peru",
+            "categoria": "Histórico",
+            "autor": "Viagens Mundo",
+            "destaque": true,
+            "data": "2025-04-28",
+            "imagem_principal": "assets/img/machu_picchu.jpg",
+            "imagens_complementares": [
+                { "id": 1, "src": "assets/img/machu1.jpg", "descricao": "Vista panorâmica" }
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "Torre Eiffel",
+            "descricao": "Ícone da arquitetura francesa e ponto turístico mundial.",
+            "conteudo": "Localizada em Paris, a Torre Eiffel é um dos monumentos mais visitados do mundo, oferecendo vistas incríveis da cidade.",
+            "pais": "França",
+            "categoria": "Cultural",
+            "autor": "Explore Paris",
+            "destaque": true,
+            "data": "2025-04-28",
+            "imagem_principal": "assets/img/eiffel.jpg",
+            "imagens_complementares": [
+                { "id": 1, "src": "assets/img/eiffel1.jpg", "descricao": "Vista noturna" }
+            ]
+        }
+    ]
 }

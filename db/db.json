@@ -45,6 +45,38 @@
             "imagens_complementares": [
                 { "id": 1, "src": "assets/img/eiffel1.jpg", "descricao": "Vista noturna" }
             ]
+        },
+        {
+          "id": 4,
+          "nome": "Torre de Pisa",
+          "descricao": "Famosa torre inclinada, marco arquitetônico da Itália.",
+          "conteudo": "A Torre de Pisa, construída entre os séculos XII e XIV, é conhecida pela sua inclinação característica e está localizada na cidade de Pisa, Itália.",
+          "pais": "Itália",
+          "categoria": "Histórico",
+          "autor": "Turismo Itália",
+          "destaque": false,
+          "data": "2025-04-28",
+          "imagem_principal": "assets/img/torreDePisa.jpg",
+          "imagens_complementares": [
+            { "id": 1, "src": "assets/img/torreDePisa1.jpg", "descricao": "Vista da Praça dos Milagres" },
+            { "id": 2, "src": "assets/img/torreDePisa2.jpg", "descricao": "Detalhe arquitetônico" }
+          ]
+        },
+        {
+          "id": 5,
+          "nome": "Maldivas",
+          "descricao": "Arquipélago paradisíaco conhecido por suas águas cristalinas.",
+          "conteudo": "As Maldivas são compostas por 26 atóis e mais de 1.000 ilhas, sendo um dos destinos mais procurados para viagens de luxo e lua de mel no mundo.",
+          "pais": "Maldivas",
+          "categoria": "Praia",
+          "autor": "Viagens Exóticas",
+          "destaque": false,
+          "data": "2025-04-28",
+          "imagem_principal": "assets/img/Maldivas.jpg",
+          "imagens_complementares": [
+            { "id": 1, "src": "assets/img/Maldivas1.jpg", "descricao": "Bangalôs sobre o mar" },
+            { "id": 2, "src": "assets/img/Maldivas2.jpg", "descricao": "Praias de areia branca" }
+          ]
         }
     ]
 }

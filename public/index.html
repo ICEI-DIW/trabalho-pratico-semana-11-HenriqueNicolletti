@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de Lugares Turísticos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/scripts/app.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-primary text-white py-4">
+    <div class="container text-center">
+      <h1>Guia de Lugares Turísticos</h1>
+      <nav class="navbar navbar-expand-md navbar-dark justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Destinos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Promoções</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="container my-5">
+
+    <!-- Seção 1 - Carrossel de Destaques -->
+    <section class="mb-5">
+        <div id="destaqueCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" id="carousel-inner">
+            <!-- Slides gerados via JavaScript -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#destaqueCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#destaqueCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </section>      
+
+    <!-- Seção 2 - Cards -->
+    <section class="mb-5">
+      <div class="row g-4" id="cards-container">
+        <!-- Cards inseridos dinamicamente -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2025 Guia de Lugares Turísticos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
